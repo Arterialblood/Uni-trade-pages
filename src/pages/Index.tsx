@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { FeatureCard } from "@/components/FeatureCard";
 import { StatsSection } from "@/components/StatsSection";
+import { CollegeTimeline } from "@/components/CollegeTimeline";
 import { BookOpen, Users, Shield, Zap, GraduationCap, ShoppingBag, Briefcase, Monitor } from "lucide-react";
 
 const Index = () => {
@@ -173,6 +174,9 @@ const Index = () => {
 
       {/* 数据统计 */}
       <StatsSection />
+
+      {/* 学院生态展示 */}
+      <CollegeTimeline />
 
       {/* CTA区域 */}
       <section className="py-20 bg-gradient-to-r from-primary via-primary-glow to-accent relative overflow-hidden">
