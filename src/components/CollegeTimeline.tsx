@@ -3,7 +3,7 @@ import RadialOrbitalTimeline from "@/components/ui/radial-orbital-timeline";
 const collegeData = [
   {
     id: 1,
-    title: "金融学院学生会",
+    title: "金融管理学院",
     date: "1960年建立",
     content: "专注金融理论与实践教学，培养金融行业精英人才。提供优质的学习资源包括金融建模、投资分析等课程笔记和实践案例。",
     category: "Finance",
