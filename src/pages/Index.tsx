@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { FeatureCard } from "@/components/FeatureCard";
 import { StatsSection } from "@/components/StatsSection";
 import { BookOpen, Users, Shield, Zap, GraduationCap, ShoppingBag, Briefcase, Monitor } from "lucide-react";
-import campusHero from "@/assets/campus-hero.jpg";
 
 const Index = () => {
   const features = [
@@ -114,7 +113,7 @@ const Index = () => {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-card bg-gradient-to-br from-primary/10 to-accent/10 p-1">
                 <img 
-                  src={campusHero} 
+                  src="/lovable-uploads/02eb3ee0-5c39-445b-bc42-d161c2c08cb7.png"
                   alt="校园宝平台展示" 
                   className="w-full h-auto rounded-xl object-cover"
                 />
